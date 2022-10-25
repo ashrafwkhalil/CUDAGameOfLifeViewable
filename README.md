@@ -6,7 +6,7 @@ The rules of the original game of life are as follows: If the cell is alive, the
 If the cell is dead, then it springs to life only in the case that it has 3 live neighbors.
 Cells in this case are represented by pixels. The only key difference here is that instead of cells representing simply a binary value, alive or dead, 
 while they are alive they are also part of a specific species of alive cells. So now, for a cell to stay alive, it needs 2 or 3 alive neighbors of the same
-species, and for a dead cell to come back to life, it needs 3 live neighbors of the same species, and obviously will come alive as that species. Each of 
+species, and for a dead cell to come back to life, it needs 3 live neighbors of the same species, and will come alive as that species. Each of 
 the different species were represented by different colors. 
 ## Program Structure Overview
 All logic regarding the translation of a current screen state to a future one given the rules of the game were encapsulated completely within a GPU kernel.
